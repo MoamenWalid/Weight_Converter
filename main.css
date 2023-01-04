@@ -1,0 +1,50 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #eee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
+
+.input {
+  width: 80%;
+  margin: auto;
+}
+
+.input input[type="number"] {
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 5px 12px;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+  color: #333;
+  caret-color: #777;
+}
+
+h3 {
+  margin: 0;
+}
+
+.dives {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.dives > div {
+  background: #2a2a2a;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+
+.dives > div > p {
+  margin: 0;
+  position: relative;
+  top: -5px;
+  color: #eee;
+}
